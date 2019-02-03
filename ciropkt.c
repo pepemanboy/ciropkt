@@ -68,7 +68,7 @@ static res_t pktCrc(const packet_t *p, uint8_t *crc)
   if (r != Ok)
     return r;
 
-  *crc = crc8(temp, pkt_HEADERSIZE + p->data_size);
+  *crc = ~crc8(temp, pkt_HEADERSIZE + p->data_size);
   return Ok;
 }
 
