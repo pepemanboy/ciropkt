@@ -1,0 +1,19 @@
+{
+  "name": "ciropkt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ciropkt.js",
+  "dependencies": {
+    "cobs": "^0.2.1",
+    "crc": "^3.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ciropkt"
+  ],
+  "author": "pepemanboy",
+  "license": "ISC"
+}
